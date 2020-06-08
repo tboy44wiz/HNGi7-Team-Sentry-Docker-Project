@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');  //  Import Body-Parser Package.
 
 
 //  Connect to MongoDB using Mongoose.
-mongoose.connect("mongodb://localhost/markdownDB", {
+mongoose.connect("mongodb+srv://tMan44wiz:justPassword@cluster0-fbqa2.mongodb.net/tMan44wiz?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
