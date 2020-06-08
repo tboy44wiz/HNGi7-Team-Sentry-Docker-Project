@@ -1,0 +1,26 @@
+{
+  "name": "mark_down_api",
+  "version": "1.0.0",
+  "description": "This is a Markdown End Point.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "MarkDown",
+    "HTML",
+    "CSS",
+    "Template"
+  ],
+  "author": "Osondu Tochukwu (tMan44wiz)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "markdown-it": "^11.0.0",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0"
+  }
+}
